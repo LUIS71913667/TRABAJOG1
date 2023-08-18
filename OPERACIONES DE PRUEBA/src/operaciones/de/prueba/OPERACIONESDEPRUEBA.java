@@ -4,6 +4,8 @@
  */
 package operaciones.de.prueba;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Alumno
@@ -14,7 +16,12 @@ public class OPERACIONESDEPRUEBA {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("INTRODUSCA EL PRIMER NUMERO: ");
+        Scanner valor1 = new Scanner(System.in);
+        int numero1=valor1.nextInt();
+        System.out.println("INTRODUSCA EL SEGUNDO NUMERO: ");
+        Scanner valor2 = new Scanner(System.in);
+        int numero2=valor2.nextInt();
     }
     
 }
