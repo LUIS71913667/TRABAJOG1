@@ -16,12 +16,20 @@ public class OPERACIONESDEPRUEBA {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("INTRODUSCA EL PRIMER NUMERO: ");
-        Scanner valor1 = new Scanner(System.in);
-        int numero1=valor1.nextInt();
-        System.out.println("INTRODUSCA EL SEGUNDO NUMERO: ");
-        Scanner valor2 = new Scanner(System.in);
-        int numero2=valor2.nextInt();
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("--------MULTIPLICACION--------");
+        //CREAMOS LAS VARIABLES A USAR PARA LOS DATOS
+        int g,h,multiplicacion;
+        //INGRESAMOS EL PRIMER NUMERO A MULTIPLICAR
+        System.out.println("Digite el primer numero:");
+        g=entrada.nextInt();
+        //INGRESAMOS EL SEGUNDO NUMERO A MULTIPLICAR
+        System.out.println("Digite el segundo numero:");
+        h=entrada.nextInt();
+        //CREAMOS LA VARIABLE QUE MULTIPLICARA LOS DATOS
+        multiplicacion = g*h;
+        //SALIDA DE LOS DATOS INGRESADOS Y SU RESULTADO
+        System.out.println("EL RESULTADO DE ESTA MULTIPLICACION ES:  " + multiplicacion);
     }
     
 }
